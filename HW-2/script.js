@@ -1,5 +1,1 @@
-function ff() {
-    var a = 3
-    console.log(a)
-}
-ff()
+var color = prompt("Введите цвет", "")
