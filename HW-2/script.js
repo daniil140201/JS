@@ -12,3 +12,7 @@ if (color === "red"){
 }else{
     document.write("<div style='background-color: gray;'>Я не понял</div>");
 }
+var age = prompt("Введите ваш возраст")
+if (age > 100 || age <=0){
+    alert("Ваш возраст некорректен")
+}
