@@ -30,14 +30,14 @@ var p = JSON.parse('{"name":"Danya", "surname":"Ilyha"}')
 persons.push(p)
 console.log(persons)
 //7
-// var str = "<table border='1'>"
-// for (let i in persons){
-//     str += `<tr><td>${persons[i].name}</td><td>${persons[i].surname || ' '}</td></tr>`
-// }
-// str += "</table>"
-//
-// console.log(str)
-// document.write(str)
+var str = "<table border='1'>"
+for (let i in persons){
+    str += `<tr><td>${persons[i].name}</td><td>${persons[i].surname || ' '}</td></tr>`
+}
+str += "</table>"
+
+console.log(str)
+document.write(str)
 //8
 function avg2(a , b){
     return (a + b)/2
